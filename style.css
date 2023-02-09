@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.wrapper {
+  position: absolute;
+  width: 1100px;
+  height: 800px;
+  background: #c4c4c4;
+}
+
+.contentbox {
+  width: 1000px;
+  height: 200px;
+  background: #e6e6e6;
+  margin: 50px;
+  position: relative;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: #fc8f8f;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #ffffff;
+  text-align: center;
+  padding: 62px;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+  margin-right: 15px;
+}
+
+.right {
+  float: right;
+  margin-left: 15px;
+}
+
+.smallbox {
+  width: 100px;
+  height: 100px;
+  background: #fc8f8f;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+  padding: 31px;
+  display: inline-block;
+  margin-left: 15px;
+  position: absolute;
+  top: 0;
+}
+
+.two {
+    right: 345px;
+}
+
+.three {
+    right: 230px;
+}
+
+.four {
+    right: 115px;
+}
+
+.five {
+    right: 0px;
+}
+
+.clear{
+    clear: both;
+}
